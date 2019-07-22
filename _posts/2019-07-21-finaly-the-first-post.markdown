@@ -2,7 +2,7 @@
 layout: post
 title: 'Finally...My first post'
 date: 2019-07-21 17:35:58 -0400
-categories: general update
+categories: general
 author: Yuliy
 ---
 

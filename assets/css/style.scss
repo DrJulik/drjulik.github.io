@@ -3,12 +3,60 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import 'example';
+@import 'colors';
 
+// Header
+.site-header {
+  background: $primary-color;
+  border-bottom: 1px solid $secondary-color;
+
+  a.site-title {
+    color: #fff;
+  }
+
+  a.page-link {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+}
+
+// Main Content
+.page-content {
+  background: $primary-color;
+}
+
+a.post-link {
+  color: $heading-color;
+}
+
+p.rss-subscribe {
+  color: #828282;
+}
+// Footer
+.site-footer {
+  background: $primary-color;
+}
+h2.footer-heading {
+  color: $heading-color;
+}
 h2.title {
   font-size: 3rem;
 }
 
 .img-preview {
   box-shadow: rgb(102, 102, 102) 0px 1px 4px;
+}
+
+// Blog entry
+
+.page-content {
+  color: #fff;
+
+  p {
+    font-size: 1.1rem;
+
+    &::selection {
+      background-color: #900;
+    }
+  }
 }

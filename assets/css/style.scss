@@ -19,6 +19,14 @@
     color: #fff;
   }
 }
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: $primary-color;
+  }
+  .site-nav .menu-icon > svg {
+    fill: #c09a75;
+  }
+}
 
 // Main Content
 .page-content {

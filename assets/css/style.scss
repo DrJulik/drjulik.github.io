@@ -43,6 +43,10 @@ p.rss-subscribe {
 // Footer
 .site-footer {
   background: $primary-color;
+
+  p {
+    color: #ececec;
+  }
 }
 h2.footer-heading {
   color: $heading-color;

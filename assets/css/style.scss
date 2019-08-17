@@ -31,6 +31,34 @@
 // Main Content
 .page-content {
   background: $primary-color;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.7rem;
+  padding: 3rem 0;
+
+  .wrapper {
+    background: #283d40;
+    padding: 3rem;
+  }
+
+  .img-preview {
+    margin: 2rem 0;
+  }
+
+  .meta-date {
+    margin-bottom: 1rem;
+  }
+
+  // make all images have more space
+  img {
+    margin: 1rem 0;
+  }
+
+  // nice looking code blocks
+  code {
+    background: #a7002a;
+  }
 }
 
 a.post-link {
@@ -62,7 +90,7 @@ h2.title {
 // Blog entry
 
 .page-content {
-  color: #fff;
+  color: #e6e6e6;
 
   p {
     font-size: 1.1rem;

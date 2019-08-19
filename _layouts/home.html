@@ -21,7 +21,8 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
-        <img class="img-preview" src="{{"assets/images/2.jpg"}}" alt="">
+        <!-- <img class="img-preview" src="{{"assets/images/2.jpg"}}" alt=""> -->
+        <img class="img-preview" src="{{ post.image | relative_url }}" alt="">
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}

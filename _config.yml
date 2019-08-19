@@ -14,14 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Learning on the Job
-email: J.Batkovich@gmail.com
+email: julius.webdesigns@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is a blog of a Toronto (Richmond Hill) based Web Designer and Developer Yuliy Sozin.
   For the actual portfolio go to yuliysozin.dev
 baseurl: '' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: DesignsJulius
 github_username: drjulik
+dribbble_username: DrJULIK
 
 # Build settings
 markdown: kramdown

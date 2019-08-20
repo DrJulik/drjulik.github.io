@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Learning...on the Job'
-date: 2019-07-21 17:35:58 -0400
+date: 2019-08-04 12:35:58 -0400
 categories: general
 author: Yuliy
 image: 'assets/images/3.jpg'

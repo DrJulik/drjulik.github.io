@@ -6,3 +6,21 @@ a {
     color: #c09a75;
   }
 }
+
+// back to top
+.back-to-top {
+  // display: none;
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 15px;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.back-to-top i {
+  font-size: 55px;
+}

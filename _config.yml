@@ -25,6 +25,7 @@ github_username: drjulik
 dribbble_username: DrJULIK
 
 # Build settings
+google_analytics: UA-NNNNNNNN-N
 markdown: kramdown
 theme: minima
 plugins:

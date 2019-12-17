@@ -8,6 +8,14 @@
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
+        <div class="checkbox-wrapper">
+            <input type="checkbox" class="checkbox" id="theme-toggler" />
+            <label class="label" for="theme-toggler">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
       <div class="wrapper">
         {{ content }}
       </div>
@@ -24,6 +32,7 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
     <script src="/assets/js/btn.js"></script>
+    <script src="/assets/js/app.js"></script>
 
   </body>
 

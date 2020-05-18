@@ -3,151 +3,147 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import 'components';
-@import 'about';
-@import 'colors';
-@import 'theme_toggler';
-@import 'light_theme';
+@import "components";
+@import "about";
+@import "colors";
+@import "theme_toggler";
+@import "light_theme";
 
 // Header
 .header-wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
+	max-width: -webkit-calc(800px - (30px * 2));
+	max-width: calc(800px - (30px * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 @media screen and (max-width: 800px) {
-  .header-wrapper {
-    max-width: -webkit-calc(800px - (30px));
-    max-width: calc(800px - (30px));
-    padding-right: 15px;
-    padding-left: 15px;
-  }
+	.header-wrapper {
+		max-width: -webkit-calc(800px - (30px));
+		max-width: calc(800px - (30px));
+		padding-right: 15px;
+		padding-left: 15px;
+	}
 }
 
 .site-header {
-  background: $primary-color;
-  border-bottom: 1px solid $secondary-color;
+	background: $primary-color;
+	border-bottom: 1px solid $secondary-color;
 
-  a.site-title {
-    color: #fff;
-  }
+	a.site-title {
+		color: #fff;
+	}
 
-  a.page-link {
-    font-size: 1.2rem;
-    color: #fff;
-  }
+	a.page-link {
+		font-size: 1.2rem;
+		color: #fff;
+	}
 }
 @media screen and (max-width: 600px) {
-  .site-nav {
-    background-color: $primary-color;
-  }
-  .site-nav .menu-icon > svg {
-    fill: #c09a75;
-  }
+	.site-nav {
+		background-color: $primary-color;
+	}
+	.site-nav .menu-icon > svg {
+		fill: #c09a75;
+	}
 }
 
 // Main Content
 .page-content {
-  background: $primary-color;
-  font-family: 'Open Sans', sans-serif;
+	background: $primary-color;
+	font-family: "Open Sans", sans-serif;
 
-  // text-align: justify;
-  line-height: 1.8rem;
-  padding: 1rem 0;
+	// text-align: justify;
+	line-height: 1.8rem;
+	padding: 1rem 0;
 
-  .wrapper {
-    background: #283d40;
-    padding: 1.5rem 1rem 1rem 3rem;
-  }
+	.wrapper {
+		background: #283d40;
+		padding: 1.5rem 1rem 1rem 3rem;
+	}
 
-  .img-preview {
-    width: 100%;
-    height: 50%;
-    margin: 0.5rem 0 1rem 0;
-  }
+	.img-preview {
+		width: 100%;
+		height: 50%;
+		margin: 0.5rem 0 1rem 0;
+	}
 
-  .meta-date {
-    margin-bottom: 1rem;
-  }
+	.meta-date {
+		margin-bottom: 1rem;
+	}
 
-  // make all images have more space
-  img {
-    margin: 1rem 0;
-  }
+	// make all images have more space
+	img {
+		margin: 1rem 0;
+	}
 
-  // nice looking code blocks
-  code {
-    background: #a7002a;
-  }
+	// nice looking code blocks
+	code {
+		background: #a7002a;
+	}
 }
 
 a.post-link {
-  color: $heading-color;
+	color: $heading-color;
 }
 
 p.rss-subscribe {
-  color: #828282;
+	color: #828282;
 }
 
 @media screen and (max-width: 700px) {
-  .page-content {
-    padding: 0;
+	.page-content {
+		padding: 0;
 
-    .wrapper {
-      padding: 1rem 2rem;
-    }
-  }
+		.wrapper {
+			padding: 1rem 2rem;
+		}
+	}
 }
 // Footer
 .footer-wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
+	max-width: -webkit-calc(800px - (30px * 2));
+	max-width: calc(800px - (30px * 2));
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 @media screen and (max-width: 800px) {
-  .footer-wrapper {
-    max-width: -webkit-calc(800px - (30px));
-    max-width: calc(800px - (30px));
-    padding-right: 15px;
-    padding-left: 15px;
-  }
+	.footer-wrapper {
+		max-width: -webkit-calc(800px - (30px));
+		max-width: calc(800px - (30px));
+		padding-right: 15px;
+		padding-left: 15px;
+	}
 }
 .site-footer {
-  background: $primary-color;
+	background: $primary-color;
 
-  p {
-    color: #ececec;
-  }
+	p {
+		color: #ececec;
+	}
 }
 h2.footer-heading {
-  color: $heading-color;
+	color: $heading-color;
 }
 h2.title {
-  font-size: 3rem;
+	font-size: 3rem;
 }
 
 .img-preview {
-  box-shadow: rgb(102, 102, 102) 0px 1px 4px;
+	box-shadow: rgb(102, 102, 102) 0px 1px 4px;
 }
 
 // Blog entry
 
 .page-content {
-  color: #e6e6e6;
+	color: #e6e6e6;
 
-  p {
-    font-size: 1.1rem;
-
-    &::selection {
-      background-color: #900;
-    }
-  }
+	p {
+		font-size: 1.1rem;
+	}
 }
 
-@import 'single-post';
+@import "single-post";

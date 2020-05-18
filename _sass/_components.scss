@@ -1,26 +1,38 @@
+// Universal Highlighting
+* {
+	&::selection {
+		background-color: #900;
+	}
+}
 // Links
 a {
-  color: #c09a75;
+	color: #c09a75;
 
-  &:visited {
-    color: #c09a75;
-  }
+	&:visited {
+		color: #c09a75;
+	}
 }
 
 // back to top
 .back-to-top {
-  // display: none;
-  background: none;
-  margin: 0;
-  position: fixed;
-  bottom: 15px;
-  right: 0;
-  width: 70px;
-  height: 70px;
-  z-index: 100;
-  text-decoration: none;
+	// display: none;
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 15px;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	text-decoration: none;
+}
+
+blockquote {
+	p {
+		color: rgb(212, 212, 212);
+	}
 }
 
 .back-to-top i {
-  font-size: 55px;
+	font-size: 55px;
 }

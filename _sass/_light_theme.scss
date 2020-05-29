@@ -9,41 +9,43 @@ $toggle-label-light: #bfbfbf;
 $toggle-moon-light: #9d5a19;
 
 body.light {
-  .page-content {
-    background: $primary-color-light;
-  }
+	.page-content {
+		background: $primary-color-light;
+	}
 
-  .wrapper {
-    background: $content-color-light;
-  }
+	.wrapper {
+		background: $content-color-light;
+	}
 
-  .site-header,
-  .site-footer {
-    background: $navbg-color-light;
-  }
+	.site-header,
+	.site-footer {
+		background: $navbg-color-light;
+	}
 
-  a.site-title,
-  a.page-link,
-  .footer-heading,
-  .p-name,
-  .u-email,
-  span.username {
-    color: $links-color-light;
-  }
+	a.site-title,
+	a.page-link,
+	.footer-heading,
+	.p-name,
+	.u-email,
+	span.username,
+	p,
+	h1 {
+		color: $links-color-light;
+	}
 
-  a.post-link {
-    color: $heading-color-light;
-  }
+	a.post-link {
+		color: $heading-color-light;
+	}
 
-  .label {
-    background: $toggle-label-light;
+	.label {
+		background: $toggle-label-light;
 
-    .ball {
-      color: $toggle-ball-light;
-    }
+		.ball {
+			color: $toggle-ball-light;
+		}
 
-    .fa-moon {
-      color: $toggle-moon-light;
-    }
-  }
+		.fa-moon {
+			color: $toggle-moon-light;
+		}
+	}
 }

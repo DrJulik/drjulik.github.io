@@ -29,7 +29,12 @@ body.light {
 	.u-email,
 	span.username,
 	p,
-	h1 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		color: $links-color-light;
 	}
 
@@ -46,6 +51,12 @@ body.light {
 
 		.fa-moon {
 			color: $toggle-moon-light;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.site-nav {
+			background-color: $navbg-color-light;
 		}
 	}
 }

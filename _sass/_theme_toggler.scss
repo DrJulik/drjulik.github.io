@@ -1,11 +1,11 @@
-.checkbox {
-	opacity: 0;
-	position: absolute;
-}
-
 .checkbox-wrapper {
 	max-width: 90%;
 	margin: auto;
+	z-index: 1;
+}
+.checkbox {
+	opacity: 0;
+	position: absolute;
 }
 
 .label {
@@ -47,8 +47,8 @@
 	color: #ffb032;
 }
 
-// @media (max-width: 767px) {
-// 	.checkbox-wrapper {
-// 		display: none;
-// 	}
-// }
+@media (max-width: 767px) {
+	.checkbox-wrapper {
+		max-width: 70%;
+	}
+}

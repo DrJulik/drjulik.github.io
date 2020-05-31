@@ -1,5 +1,16 @@
 .page-content {
-  .single-post-wrapper {
-    padding: 2rem;
-  }
+	.single-post-wrapper {
+		padding: 2rem;
+
+		// TYPO
+
+		h2 {
+			background: #2f464a;
+			padding: 1rem 0;
+		}
+	}
+}
+
+.highlighter-rouge .highlight {
+	background: black;
 }

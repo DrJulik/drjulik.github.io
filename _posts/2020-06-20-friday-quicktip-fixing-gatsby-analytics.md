@@ -4,7 +4,7 @@ title: "Friday Quicktip: Google Analytics in Gatsby"
 date: 2020-06-20 -0400
 categories: quicktip
 author: Yuliy
-image: "assets/images/lazy_loading/front.jpg"
+image: "assets/images/gatsby_analytics/front.png"
 ---
 
 The last couple of weeks I have invested a good amount of time into the exploration of Gatsby, an amazing React-based SSG. One of the things that came up during this exploration is the integration of Google Analytics. Just like with a lot of things in Gatsby the problem is solved with a plugin, which, in this case, is _gatsby-plugin-google-analytics_. Easy, right? Except, when it doesn’t work.

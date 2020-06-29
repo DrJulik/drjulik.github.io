@@ -11,6 +11,11 @@ $toggle-moon-light: #9d5a19;
 body.light {
 	.page-content {
 		background: $primary-color-light;
+
+		// single post headings
+		.single-post-wrapper h2 {
+			background: $primary-color-light;
+		}
 	}
 
 	.wrapper {
